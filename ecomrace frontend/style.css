@@ -1,0 +1,108 @@
+body{
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.star-rating{
+    color: yellow;
+}
+.product-item{
+    margin: auto;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.footer-item{
+    color: #ccc;
+}
+.footer-item{
+    list-style: square;
+}
+.product-small img{
+    max-width: 10rem;
+    padding: 1rem;
+}
+.cart-item{
+    border: 1px solid gray;
+
+}
+.order{
+    border: 1px solid gray;
+}
+.close i:hover{
+    color: red ;
+}
+.close{
+    font-size: 1.5rem;
+}
+.login-box{
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.success-icon{
+    font-size: 10rem;
+}
+#carouselExampleDark img{
+    max-height: 90vh;
+}
+.toast{
+    top: -50px;
+}
+.toast.show{
+    top: 0px;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+}
+.color-lable{
+    border-radius: 50% !important;
+    margin: 5px;
+}
+.color-lable i{
+    opacity: 0;
+}
+.btn-check:checked+.color-lable i{
+    opacity: 1;
+}
+.accordion-body{
+    font-size: 0.8rem;
+    color: gray;
+}
+.accordion-header{
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
+.accordion-button:not(.collapsed) button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+}
+.cart-badge{
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+.search-form input, .search-form button{
+    border-radius: 0;
+}
+.nav-item:hover{
+    background-color: #ffffff33;
+}
+a.dropdown-item {
+    color: white !important;
+    text-decoration: none;
+}
+a.dropdown-item:hover {
+    color:black !important;
+    text-decoration: none;
+}
